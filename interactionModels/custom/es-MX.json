@@ -1,0 +1,1186 @@
+{
+  "interactionModel": {
+    "dialog": {
+      "intents": [
+        {
+          "slots": [
+            {
+              "name": "estacion",
+              "elicitationRequired": true,
+              "type": "AMAZON.NUMBER",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1545808816417.203226135039"
+              }
+            },
+            {
+              "name": "accion",
+              "elicitationRequired": true,
+              "type": "BinAction",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1545808816417.28643298409"
+              }
+            },
+            {
+              "name": "estacion_dos",
+              "elicitationRequired": false,
+              "type": "AMAZON.NUMBER",
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "estacion_tres",
+              "elicitationRequired": false,
+              "type": "AMAZON.NUMBER",
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "estacion_cuatro",
+              "elicitationRequired": false,
+              "type": "AMAZON.NUMBER",
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ],
+          "name": "LightAction",
+          "confirmationRequired": false,
+          "prompts": {}
+        },
+        {
+          "slots": [
+            {
+              "name": "accion",
+              "elicitationRequired": true,
+              "type": "BinAction",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1023537985234.955456882918"
+              }
+            },
+            {
+              "name": "estacion",
+              "elicitationRequired": true,
+              "type": "AMAZON.NUMBER",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1023537985234.1137064778795"
+              }
+            }
+          ],
+          "name": "StationAction",
+          "confirmationRequired": false,
+          "prompts": {}
+        },
+        {
+          "slots": [
+            {
+              "name": "estacion",
+              "elicitationRequired": true,
+              "type": "AMAZON.NUMBER",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1550394086267.501239187361"
+              }
+            }
+          ],
+          "name": "ProductionSpeed",
+          "confirmationRequired": false,
+          "prompts": {}
+        },
+        {
+          "slots": [
+            {
+              "name": "estacion",
+              "elicitationRequired": true,
+              "type": "AMAZON.NUMBER",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.609841527759.1493466245241"
+              }
+            }
+          ],
+          "name": "StationState",
+          "confirmationRequired": false,
+          "prompts": {}
+        },
+        {
+          "slots": [
+            {
+              "name": "temperatura",
+              "elicitationRequired": true,
+              "type": "AMAZON.NUMBER",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.574796120600.4894879929"
+              }
+            },
+            {
+              "name": "escala",
+              "elicitationRequired": false,
+              "type": "TempScale",
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ],
+          "name": "TemperatureSet",
+          "confirmationRequired": false,
+          "prompts": {}
+        },
+        {
+          "slots": [
+            {
+              "name": "evento",
+              "elicitationRequired": true,
+              "type": "EventType",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.140182582470.1653979513698"
+              }
+            },
+            {
+              "name": "hora",
+              "elicitationRequired": true,
+              "type": "AMAZON.TIME",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.140182582470.954508878726"
+              }
+            }
+          ],
+          "name": "TimeEvent",
+          "confirmationRequired": false,
+          "prompts": {}
+        },
+        {
+          "slots": [
+            {
+              "name": "actual",
+              "elicitationRequired": true,
+              "type": "AMAZON.FOUR_DIGIT_NUMBER",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.259870242499.1319586008697"
+              }
+            },
+            {
+              "name": "nuevo",
+              "elicitationRequired": true,
+              "type": "AMAZON.FOUR_DIGIT_NUMBER",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.259870242499.317127590792"
+              }
+            }
+          ],
+          "name": "ChangePIN",
+          "confirmationRequired": false,
+          "prompts": {}
+        },
+        {
+          "slots": [
+            {
+              "name": "evento",
+              "elicitationRequired": true,
+              "type": "EventType",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.771781998496.1336892904637"
+              }
+            },
+            {
+              "name": "evento_opt",
+              "elicitationRequired": false,
+              "type": "EventType",
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ],
+          "name": "GetTimeEvents",
+          "confirmationRequired": false,
+          "prompts": {}
+        },
+        {
+          "slots": [
+            {
+              "name": "accion",
+              "elicitationRequired": true,
+              "type": "BinAction",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1314344057646.1475221494956"
+              }
+            }
+          ],
+          "name": "AllEnableEvent",
+          "confirmationRequired": false,
+          "prompts": {}
+        },
+        {
+          "slots": [
+            {
+              "name": "accion",
+              "elicitationRequired": true,
+              "type": "BinAction",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1164523245160.215823080402"
+              }
+            }
+          ],
+          "name": "AllLightsEvent",
+          "confirmationRequired": false,
+          "prompts": {}
+        },
+        {
+          "slots": [
+            {
+              "name": "estacion",
+              "elicitationRequired": true,
+              "type": "AMAZON.NUMBER",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.303159648338.597569065735"
+              }
+            }
+          ],
+          "name": "ShowImage",
+          "confirmationRequired": false,
+          "prompts": {}
+        },
+        {
+          "slots": [
+            {
+              "name": "pin",
+              "elicitationRequired": true,
+              "type": "AMAZON.FOUR_DIGIT_NUMBER",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1617712998247.1522050471060"
+              }
+            },
+            {
+              "name": "user",
+              "elicitationRequired": true,
+              "type": "UserType",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1617712998247.1536214650395"
+              }
+            }
+          ],
+          "name": "SystemAccess",
+          "confirmationRequired": false,
+          "prompts": {}
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "pin",
+              "type": "AMAZON.FOUR_DIGIT_NUMBER",
+              "samples": [
+                "mi pin es {pin}",
+                "{pin}"
+              ]
+            },
+            {
+              "name": "user",
+              "type": "UserType",
+              "samples": [
+                "mi usuario es {user}",
+                "{user} "
+              ]
+            }
+          ],
+          "name": "SystemAccess",
+          "samples": [
+            "mi usuario es {user} y mi pin es {pin}",
+            "ingresa al sistema con {user} {pin}",
+            "ingresa con {user} {pin}",
+            "accede con usuario {user} y pin {pin}",
+            "acceso con usuario {user}  y pin {pin}",
+            "pin {pin}",
+            "accede al sistema con pin {pin}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "estacion",
+              "type": "AMAZON.NUMBER",
+              "samples": [
+                "{estacion} {estacion_dos} {estacion_tres} y {estacion_cuatro}",
+                "{estacion} {estacion_dos} y {estacion_tres}",
+                "{estacion} y {estacion_dos}",
+                "numero {estacion}",
+                "estacion numero {estacion}",
+                "{estacion}",
+                "estacion {estacion}"
+              ]
+            },
+            {
+              "name": "accion",
+              "type": "BinAction",
+              "samples": [
+                "{accion}"
+              ]
+            },
+            {
+              "name": "estacion_dos",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "estacion_tres",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "estacion_cuatro",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "LightAction",
+          "samples": [
+            "{accion} luz de la estación {estacion}",
+            "{accion} luz de estación {estacion}",
+            "{accion} la luz de la estación {estacion}",
+            "{accion} luz de la estación numero {estacion}",
+            "{accion} la luz de la estación numero {estacion}",
+            "{accion} la luz de la estacion numero {estacion}",
+            "{accion} luz numero {estacion}",
+            "{accion} la luz numero {estacion}",
+            "{accion} luz de la estacion numero {estacion}",
+            "{accion} luz {estacion}",
+            "{accion} luz de la estacion {estacion}",
+            "{accion} la luz {estacion}",
+            "{accion} luz de estacion {estacion}",
+            "{accion} la luz de la estacion {estacion}",
+            "{accion} las luces de las estaciones {estacion} y {estacion_dos}",
+            "{accion} las luces de las estaciones {estacion} {estacion_dos} y {estacion_tres}",
+            "{accion} las luces de las estaciones {estacion} {estacion_dos} {estacion_tres} y {estacion_cuatro}",
+            "{accion} las luces de las estaciones número {estacion} y {estacion_dos}",
+            "{accion} las luces de las estaciones número {estacion} {estacion_dos} y {estacion_tres}",
+            "{accion} las luces de las estaciones número {estacion} {estacion_dos} {estacion_tres} y {estacion_cuatro}",
+            "{accion} las luces de la estación número {estacion} y {estacion_dos}",
+            "{accion} las luces de la estación número {estacion} {estacion_dos} y {estacion_tres}",
+            "{accion} las luces de la estación número {estacion} {estacion_dos} {estacion_tres} y {estacion_cuatro}",
+            "{accion} las luces de la estación {estacion} y {estacion_dos}",
+            "{accion} las luces de la estación {estacion} {estacion_dos} y {estacion_tres}",
+            "{accion} las luces de la estación {estacion} {estacion_dos} {estacion_tres} y {estacion_cuatro}",
+            "{accion} la luz de la estación {estacion} y {estacion_dos}",
+            "{accion} la luz de la estación {estacion} {estacion_dos} y {estacion_tres}",
+            "{accion} la luz de la estación {estacion} {estacion_dos} {estacion_tres} y {estacion_cuatro}",
+            "{accion} la luz {estacion} y {estacion_dos}",
+            "{accion} la luz {estacion} {estacion_dos} y {estacion_tres}",
+            "{accion} la luz {estacion} {estacion_dos} {estacion_tres} y {estacion_cuatro}",
+            "{accion} las luces {estacion} y {estacion_dos}",
+            "{accion} las luces {estacion} {estacion_dos} y {estacion_tres}",
+            "{accion} las luces {estacion} {estacion_dos} {estacion_tres} y {estacion_cuatro}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "accion",
+              "type": "BinAction",
+              "samples": [
+                "{accion} estacion",
+                "{accion} la estacion",
+                "{accion}"
+              ]
+            },
+            {
+              "name": "estacion",
+              "type": "AMAZON.NUMBER",
+              "samples": [
+                "{estacion}",
+                "numero {estacion}",
+                "estacion numero {estacion}",
+                "estacion {estacion}"
+              ]
+            },
+            {
+              "name": "estacion_dos",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "estacion_tres",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "estacion_cuatro",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "StationAction",
+          "samples": [
+            "{accion} estación número {estacion}",
+            "{accion} estación {estacion}",
+            "{accion} la estación número {estacion}",
+            "{accion} la estación {estacion}",
+            "{accion} estación numero {estacion}",
+            "{accion} estacion {estacion}",
+            "{accion} las estaciones {estacion} y {estacion_dos}",
+            "{accion} la estación {estacion} y {estacion_dos}",
+            "{accion} las estaciones número {estacion} y {estacion_dos}",
+            "{accion} la estación número {estacion} y {estacion_dos}",
+            "{accion} las estaciones {estacion} {estacion_dos} y {estacion_tres}",
+            "{accion} la estación {estacion} {estacion_dos} y {estacion_tres}",
+            "{accion} las estaciones número {estacion} {estacion_dos} y {estacion_tres}",
+            "{accion} la estación número {estacion} {estacion_dos} y {estacion_tres}",
+            "{accion} las estaciones {estacion} {estacion_dos} {estacion_tres} y {estacion_cuatro}",
+            "{accion} la estación {estacion} {estacion_dos} {estacion_tres} y {estacion_cuatro}",
+            "{accion} las estaciones número {estacion} {estacion_dos} {estacion_tres} y {estacion_cuatro}",
+            "{accion} la estación número {estacion} {estacion_dos} {estacion_tres} y {estacion_cuatro}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "estacion",
+              "type": "AMAZON.NUMBER",
+              "samples": [
+                "{estacion}",
+                "numero {estacion}",
+                "estacion {estacion}",
+                "estacion numero {estacion}"
+              ]
+            }
+          ],
+          "name": "ProductionSpeed",
+          "samples": [
+            "velocidad de la estación número {estacion} ",
+            "produccion de la estación {estacion}",
+            "velocidad de la estación {estacion}",
+            "reporta la velocidad de la estación número {estacion}",
+            "reporta la velocidad de la estación {estacion}",
+            "cual es la produccion de la estacion numero {estacion}",
+            "cual es la produccion de la estacion {estacion}",
+            "como va la produccion de la estacion {estacion}",
+            "reporta la produccion de la estacion numero {estacion}",
+            "como va la produccion de la estacion numero {estacion}",
+            "reporta la produccion de la estacion {estacion}",
+            "cual es la velocidad de la estacion numero {estacion}",
+            "cual es la velocidad de la estacion {estacion}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "estacion",
+              "type": "AMAZON.NUMBER",
+              "samples": [
+                "{estacion}",
+                "numero {estacion}",
+                "estacion {estacion}",
+                "estacion numero {estacion}"
+              ]
+            }
+          ],
+          "name": "StationState",
+          "samples": [
+            "dame un reporte de la estación número {estacion}",
+            "reporte de la estación número {estacion}",
+            "cual es el estado de la estación número {estacion}",
+            "estado de la estación número {estacion}",
+            "dame un reporte de la estación {estacion}",
+            "reporte de la estacion {estacion}",
+            "cual es el estado de la estacion {estacion}",
+            "estado de la estacion {estacion}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "escala",
+              "type": "TempScale"
+            }
+          ],
+          "name": "TemperatureRead",
+          "samples": [
+            "temperatura de la planta en {escala}",
+            "cual es la temperatura en {escala}",
+            "cual es la temperatura de la planta en {escala}",
+            "reporta la temperatura de la planta en {escala}",
+            "temperatura de la planta en grados {escala}",
+            "cual es la temperatura en grados {escala}",
+            "cual es la temperatura de la planta en grados {escala}",
+            "reporta la temperatura de la planta en grados {escala}",
+            "reporta la temperatura de la planta",
+            "temperatura de la planta",
+            "cual es la temperatura",
+            "cual es la temperatura de la planta"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "temperatura",
+              "type": "AMAZON.NUMBER",
+              "samples": [
+                "{temperatura} grados",
+                "{temperatura} grados {escala}"
+              ]
+            },
+            {
+              "name": "escala",
+              "type": "TempScale"
+            }
+          ],
+          "name": "TemperatureSet",
+          "samples": [
+            "pon la temperatura en {temperatura} grados",
+            "pon la temperatura de la planta a {temperatura} grados",
+            "pon la temperatura a {temperatura} grados",
+            "pon la temperatura de la planta {temperatura} grados",
+            "pon la temperatura {temperatura} grados",
+            "configura la temperatura en {temperatura} grados",
+            "setea la temperatura en {temperatura} grados",
+            "climatiza la temperatura de la planta en {temperatura} grados",
+            "configura la temperatura en {temperatura} grados {escala}",
+            "setea la temperatura en {temperatura} grados {escala}",
+            "climatiza la planta en {temperatura} grados {escala}",
+            "configura la temperatura de la planta en {temperatura} grados {escala}",
+            "setea la temperatura de la planta en {temperatura} grados {escala}",
+            "setea la temperatura de la planta en {temperatura} grados",
+            "configura la temperatura a {temperatura} grados",
+            "setea la temperatura a {temperatura} grados",
+            "climatiza la planta a {temperatura} grados",
+            "configura la temperatura de la planta a {temperatura} grados",
+            "setea la temperatura de la planta a {temperatura} grados",
+            "configura la temperatura a {temperatura} grados {escala}",
+            "setea la temperatura a {temperatura} grados {escala}",
+            "climatiza la planta a {temperatura} grados {escala}",
+            "configura la temperatura de la planta a {temperatura} grados {escala}",
+            "setea la temperatura de la planta a {temperatura} grados {escala}",
+            "configura la temperatura {temperatura} grados",
+            "setea la temperatura {temperatura} grados",
+            "climatiza la planta {temperatura} grados",
+            "configura la temperatura de la planta {temperatura} grados",
+            "setea la temperatura de la planta {temperatura} grados",
+            "configura la temperatura {temperatura} grados {escala}",
+            "setea la temperatura {temperatura} grados {escala}",
+            "climatiza la planta {temperatura} grados {escala}",
+            "configura la temperatura de la planta {temperatura} grados {escala}",
+            "setea la temperatura de la planta {temperatura} grados {escala}",
+            "pon la temperatura en {temperatura} grados {escala}",
+            "pon la temperatura de la planta a {temperatura} grados {escala}",
+            "pon la temperatura a {temperatura} grados {escala}",
+            "pon la temperatura de la planta {temperatura} grados {escala}",
+            "pon la temperatura {temperatura} grados {escala}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "evento",
+              "type": "EventType",
+              "samples": [
+                "quiero configurar la hora de {evento}",
+                "hora de {evento}",
+                "{evento}"
+              ]
+            },
+            {
+              "name": "hora",
+              "type": "AMAZON.TIME",
+              "samples": [
+                "a la {hora}",
+                "a las {hora}",
+                "{hora}"
+              ]
+            }
+          ],
+          "name": "TimeEvent",
+          "samples": [
+            "configurar el {evento} a la {hora}",
+            "configura el {evento} a la {hora}",
+            "configurar la hora de {evento} a la {hora}",
+            "configura la hora de {evento} a la {hora}",
+            "configurar el {evento} a las {hora}",
+            "configura el {evento} a las {hora}",
+            "configurar la hora de {evento} a las {hora}",
+            "configura la hora de {evento} a las {hora}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "actual",
+              "type": "AMAZON.FOUR_DIGIT_NUMBER",
+              "samples": [
+                "el pin de seguridad es {nuevo}",
+                "el pin es {actual}",
+                "el pin actual es {actual}",
+                "{actual}"
+              ]
+            },
+            {
+              "name": "nuevo",
+              "type": "AMAZON.FOUR_DIGIT_NUMBER",
+              "samples": [
+                "el nuevo pin de seguridad es {nuevo}",
+                "el nuevo pin es {nuevo}",
+                "{nuevo}"
+              ]
+            }
+          ],
+          "name": "ChangePIN",
+          "samples": [
+            "cambiar el pin de {actual} a {nuevo}",
+            "cambia el pin de {actual} a {nuevo}",
+            "cambiar el pin de seguridad de {actual} a {nuevo}",
+            "cambia el pin de seguridad de {actual} a {nuevo}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "GeneralReport",
+          "samples": [
+            "genera un reporte",
+            "genera un informe",
+            "reporte general",
+            "reporte de la planta",
+            "dame un reporte de la planta",
+            "dame un reporte general",
+            "dame un informe de la planta",
+            "informe de la planta",
+            "informe general",
+            "Dame un informe general"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "escala",
+              "type": "TempScale"
+            }
+          ],
+          "name": "TempSetpointGet",
+          "samples": [
+            "cuál es el setpoint de temperatura",
+            "dime el setpoint de temperatura",
+            "cual es el setpoint de temperatura",
+            "dime la temperatura objetivo",
+            "cual es la temperatura objetivo",
+            "cuál es la temperatura objetivo",
+            "cuál es el setpoint de temperatura en {escala}",
+            "dime el setpoint de temperatura en {escala}",
+            "cual es el setpoint de temperatura en {escala}",
+            "dime la temperatura objetivo en {escala}",
+            "cual es la temperatura objetivo en {escala}",
+            "cuál es la temperatura objetivo en {escala}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "accion",
+              "type": "BinAction",
+              "samples": [
+                "{accion}"
+              ]
+            }
+          ],
+          "name": "AllLightsEvent",
+          "samples": [
+            "{accion} todas las luces"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "accion",
+              "type": "BinAction",
+              "samples": [
+                "{accion}"
+              ]
+            }
+          ],
+          "name": "AllEnableEvent",
+          "samples": [
+            "{accion} todas las estaciones"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "evento",
+              "type": "EventType",
+              "samples": [
+                "hora de {evento}",
+                "la hora de {evento}",
+                "{evento}"
+              ]
+            },
+            {
+              "name": "evento_opt",
+              "type": "EventType"
+            }
+          ],
+          "name": "GetTimeEvents",
+          "samples": [
+            "cuál es la hora de {evento}",
+            "dame la hora de {evento}",
+            "cual es la hora de {evento}",
+            "cuál es la hora de {evento} y {evento_opt}",
+            "dame la hora de {evento} y {evento_opt}",
+            "cual es la hora de {evento} y {evento_opt}",
+            "cuál es la hora de {evento} y la hora {evento_opt}",
+            "dame la hora de {evento} y la hora {evento_opt}",
+            "cual es la hora de {evento} y la hora {evento_opt}",
+            "cuáles son la hora de {evento} y la hora {evento_opt}",
+            "cuales son la hora de {evento} y la hora {evento_opt}",
+            "cuáles son las horas de {evento} y {evento_opt}",
+            "dame las horas de {evento} y {evento_opt}",
+            "cuales son las horas de {evento} y {evento_opt}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "estacion",
+              "type": "AMAZON.NUMBER",
+              "samples": [
+                "{estacion}",
+                "número {estacion}",
+                "estación número {estacion}"
+              ]
+            }
+          ],
+          "name": "ShowImage",
+          "samples": [
+            "toma captura de la estación {estacion}",
+            "toma una captura de la estación {estacion}",
+            "mostrar una captura de la estación {estacion}",
+            "muestra captura de la estación {estacion}",
+            "muestra una captura de la estación {estacion}",
+            "toma captura de la estación número {estacion}",
+            "toma una captura de la estación número {estacion}",
+            "mostrar una captura de la estación número {estacion}",
+            "muestra captura de la estación número {estacion}",
+            "muestra una captura de la estación número {estacion}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "tumbar",
+                  "tumba",
+                  "deshabilita",
+                  "bloquear",
+                  "deshabilitar",
+                  "desactivar",
+                  "apagar",
+                  "bloquea",
+                  "desactiva",
+                  "apaga"
+                ],
+                "value": "OFF"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "prende",
+                  "prender",
+                  "encender",
+                  "desbloquear",
+                  "activar",
+                  "habilitar",
+                  "habilita",
+                  "desbloquea",
+                  "activa",
+                  "enciende"
+                ],
+                "value": "ON"
+              }
+            }
+          ],
+          "name": "BinAction"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "grados absolutos",
+                  "absolutos",
+                  "kelvin"
+                ],
+                "value": "K"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "grados centigrados",
+                  "grados celsius",
+                  "centigrados",
+                  "celsius"
+                ],
+                "value": "C"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "grados fahrenheit",
+                  "fahrenheit",
+                  "grados farenheit",
+                  "farenheit"
+                ],
+                "value": "F"
+              }
+            }
+          ],
+          "name": "TempScale"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "apagado",
+                  "cierre"
+                ],
+                "value": "OFF"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "encendido",
+                  "apertura"
+                ],
+                "value": "ON"
+              }
+            }
+          ],
+          "name": "EventType"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "cuatro"
+                ],
+                "value": "4"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "tres"
+                ],
+                "value": "3"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "dos"
+                ],
+                "value": "2"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "uno"
+                ],
+                "value": "1"
+              }
+            }
+          ],
+          "name": "StationNumber"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "total"
+              }
+            },
+            {
+              "name": {
+                "value": "monitor"
+              }
+            },
+            {
+              "name": {
+                "value": "mantenimiento"
+              }
+            }
+          ],
+          "name": "UserType"
+        }
+      ],
+      "invocationName": "sistema de control por voz"
+    },
+    "prompts": [
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Disculpa. No obtuve la hora, ¿podrías decirme a que hora encender la carga?"
+          }
+        ],
+        "id": "Elicit.Slot.1121898293338.908311446019"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "¿Dijiste que encienda la carga a las {hora} ?"
+          }
+        ],
+        "id": "Confirm.Slot.1121898293338.908311446019"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "No escuché bien, ¿qué luz de estación quieres apagar?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Disculpa, ¿cuál estación dijiste?"
+          }
+        ],
+        "id": "Elicit.Slot.1632391420758.779070613600"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Disculpa, ¿puedes repetir el número de estación?"
+          },
+          {
+            "type": "PlainText",
+            "value": "No escuché bien, ¿qué luz de estación dijiste?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Disculpa, ¿cuál estación dijiste?"
+          }
+        ],
+        "id": "Elicit.Slot.1545808816417.203226135039"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "¿Desea encender o apagar la luz?"
+          }
+        ],
+        "id": "Elicit.Slot.1545808816417.28643298409"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "No entendí, ¿quieres activar o desactivar la estacion?"
+          },
+          {
+            "type": "PlainText",
+            "value": "¿Desea habilitar o deshabilitar la estación?"
+          }
+        ],
+        "id": "Elicit.Slot.1023537985234.955456882918"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "No entendí, ¿qué estación dijiste?"
+          }
+        ],
+        "id": "Elicit.Slot.1023537985234.1137064778795"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "No escuché bien, ¿puedes repetir el número de estación?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Disculpa, ¿cuál estación dijiste?"
+          }
+        ],
+        "id": "Elicit.Slot.1550394086267.501239187361"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "No escuché bien, ¿puedes repetir el número de estación?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Disculpa, ¿cuál estación dijiste?"
+          }
+        ],
+        "id": "Elicit.Slot.609841527759.1493466245241"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Disculpa, no escuché bien, ¿a qué temperatura quieres climatizar la planta?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Lo siento, ¿puedes repetir la temperatura?"
+          }
+        ],
+        "id": "Elicit.Slot.574796120600.4894879929"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Disculpa, no entendí lo que dijiste, ¿quieres configurar la hora de apertura o la hora de cierre?"
+          }
+        ],
+        "id": "Elicit.Slot.140182582470.1653979513698"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Disculpa, no entendí, ¿a qué hora dijiste?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Lo siento, ¿puedes repetir la hora?"
+          }
+        ],
+        "id": "Elicit.Slot.140182582470.954508878726"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Necesito que digas el pin actual para actualizarlo, ¿puedes repetirlo?"
+          }
+        ],
+        "id": "Elicit.Slot.259870242499.1319586008697"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Lo siento, ¿cual es el nuevo pin de seguridad?"
+          },
+          {
+            "type": "PlainText",
+            "value": "No escuché el nuevo pin, ¿puedes repetirlo?"
+          }
+        ],
+        "id": "Elicit.Slot.259870242499.317127590792"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Disculpa, no entendí lo que dijiste, ¿quieres la hora de apertura o la hora de cierre?"
+          }
+        ],
+        "id": "Elicit.Slot.771781998496.1336892904637"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "¿Desea encender o apagar las luces?"
+          }
+        ],
+        "id": "Elicit.Slot.1164523245160.215823080402"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "¿Desea habilitar o bloquear las estaciones?"
+          }
+        ],
+        "id": "Elicit.Slot.1314344057646.1475221494956"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Disculpa, ¿puedes repetir el número de estación?"
+          },
+          {
+            "type": "PlainText",
+            "value": "No escuché bien, ¿qué luz de estación dijiste?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Disculpa, ¿cuál estación dijiste?"
+          }
+        ],
+        "id": "Elicit.Slot.303159648338.597569065735"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Creo que no escuché bien, repite tu pin por favor."
+          },
+          {
+            "type": "PlainText",
+            "value": "Disculpe, ¿cuál es su pin?"
+          }
+        ],
+        "id": "Elicit.Slot.1617712998247.1522050471060"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Creo que no escuché bien, repite tu usuario por favor."
+          },
+          {
+            "type": "PlainText",
+            "value": "Disculpe, ¿cuál es su usuario?"
+          }
+        ],
+        "id": "Elicit.Slot.1617712998247.1536214650395"
+      }
+    ]
+  }
+}
